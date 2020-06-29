@@ -1,0 +1,32 @@
+SET PATH=C:\Keil_v5\ARM\ARMCC\Bin;C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Users\ќмар\AppData\Local\Microsoft\WindowsApps;C:\adb;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\WINDOWS\System32\OpenSSH\;C:\Android;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Users\ќмар\AppData\Local\Microsoft\WindowsApps;C:\Users\ќмар\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Java\jre1.8.0_231\bin
+SET CPU_TYPE=STM32F407VETx
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=IKMA_NEW
+SET CPU_CLOCK=0x09896800
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmAsm" --Via "ikma_new\startup_stm32f407xx._ia"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\main.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_it.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_msp.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\sensore.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stepmotor.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_adc.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_adc_ex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_rcc.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_rcc_ex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_flash.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_flash_ex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_flash_ramfunc.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_gpio.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_dma_ex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_dma.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_pwr.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_pwr_ex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_cortex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_exti.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_tim.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_tim_ex.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\stm32f4xx_hal_uart.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "ikma_new\system_stm32f4xx.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmLink" --Via "IKMA_NEW\IKMA_NEW.lnp"
+"C:\Keil_v5\ARM\ARMCC\Bin\fromelf.exe" "IKMA_NEW\IKMA_NEW.axf" --i32combined --output "IKMA_NEW\IKMA_NEW.hex"
