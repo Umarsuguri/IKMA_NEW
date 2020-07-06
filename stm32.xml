@@ -3,7 +3,7 @@
   <ToolchainID>com.visualgdb.arm-eabi</ToolchainID>
   <ToolchainVersion>
     <GCC>9.3.1</GCC>
-    <GDB>8.3.1</GDB>
+    <GDB>9.2.0</GDB>
     <Revision>1</Revision>
   </ToolchainVersion>
   <BspID>com.sysprogs.arm.stm32</BspID>
@@ -48,7 +48,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>IKMA_NEW.gpdsc</RelativePath>
-        <Timestamp>132376351161994148</Timestamp>
+        <Timestamp>132385174364046180</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -365,13 +365,13 @@
         <IsStaticLibrary>false</IsStaticLibrary>
         <Settings>
           <IncludeDirectories>
-            <string>C:\Users\O.Omarov\OneDrive\Projects\STM\Visualstudio\IKMA_NEW\Inc</string>
-            <string>C:\Users\O.Omarov\OneDrive\Projects\STM\Visualstudio\IKMA_NEW\Drivers\CMSIS\Include</string>
-            <string>C:\Users\O.Omarov\OneDrive\Projects\STM\Visualstudio\IKMA_NEW\Drivers\CMSIS\Device\ST\STM32F4xx\Include</string>
-            <string>C:\Users\O.Omarov\OneDrive\Projects\STM\Visualstudio\IKMA_NEW\Drivers\STM32F4xx_HAL_Driver\Inc</string>
-            <string>C:\Users\O.Omarov\OneDrive\Projects\STM\Visualstudio\IKMA_NEW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</string>
-            <string>C:\Users\O.Omarov\OneDrive\Projects\STM\Visualstudio\IKMA_NEW\Middlewares\ST\STM32_USB_Device_Library\Core\Inc</string>
-            <string>C:\Users\O.Omarov\OneDrive\Projects\STM\Visualstudio\IKMA_NEW\Middlewares\ST\STM32_USB_Device_Library\Class\DFU\Inc</string>
+            <string>C:\Users\O.Omarov\source\repos\Umarsuguri\IKMA_NEW\Inc</string>
+            <string>C:\Users\O.Omarov\source\repos\Umarsuguri\IKMA_NEW\Drivers\CMSIS\Include</string>
+            <string>C:\Users\O.Omarov\source\repos\Umarsuguri\IKMA_NEW\Drivers\CMSIS\Device\ST\STM32F4xx\Include</string>
+            <string>C:\Users\O.Omarov\source\repos\Umarsuguri\IKMA_NEW\Drivers\STM32F4xx_HAL_Driver\Inc</string>
+            <string>C:\Users\O.Omarov\source\repos\Umarsuguri\IKMA_NEW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy</string>
+            <string>C:\Users\O.Omarov\source\repos\Umarsuguri\IKMA_NEW\Middlewares\ST\STM32_USB_Device_Library\Core\Inc</string>
+            <string>C:\Users\O.Omarov\source\repos\Umarsuguri\IKMA_NEW\Middlewares\ST\STM32_USB_Device_Library\Class\DFU\Inc</string>
           </IncludeDirectories>
           <PreprocessorMacros>
             <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
